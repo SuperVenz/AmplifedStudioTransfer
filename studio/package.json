@@ -1,0 +1,40 @@
+{
+  "name": "sanitytemplatecontent",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Knut Melvær <knut@sanity.io>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "test": "sanity check",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@sanity/base": "^2.29.1",
+    "@sanity/color-input": "^2.29.3",
+    "@sanity/components": "^2.14.0",
+    "@sanity/core": "^2.28.1",
+    "@sanity/default-layout": "^2.29.1",
+    "@sanity/default-login": "^2.29.1",
+    "@sanity/desk-tool": "^2.29.1",
+    "@sanity/vision": "^2.29.1",
+    "get-youtube-id": "^1.0.1",
+    "prop-types": "^15.6",
+    "react": "^16.2",
+    "react-dom": "^16.2",
+    "react-icons": "^4.3.1",
+    "sanity-pills": "^1.11.0",
+    "sanity-plugin-better-slug": "^1.0.0",
+    "sanity-plugin-color-picker": "^1.0.3",
+    "sanity-plugin-media": "^1.4.4",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@sanity/cli": "^2.28.0"
+  }
+}
